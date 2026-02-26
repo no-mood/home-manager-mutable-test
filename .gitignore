@@ -1,0 +1,19 @@
+# Gitignore for test configuration directory
+
+# Flake outputs
+result
+result-*
+
+# Nix build artifacts
+.direnv/
+.envrc
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Test artifacts
+test-source-dir/
